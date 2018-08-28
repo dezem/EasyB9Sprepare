@@ -32,4 +32,6 @@
 0x71a162e85481d600ae351cc07419acee61dcd412 sources\cias\hblauncher_loader.cia
 0xf81f3180ba152f596c280a45acb3c6bbe088c104 sources\cias\lumaupdater.cia
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
+0x5a4b87c8b4da6c54979a8358e41fa1cce43f8a00 sources\gm9\scripts\GM9Megascript.gm9
+0x322ec7a762812b2a4a3e07c822ae3e16b451b92b sources\gm9\scripts\NANDManager.gm9
 0x765f0351146f34a22546b69e276e171e71056164 EasyB9Sprepare.exe
