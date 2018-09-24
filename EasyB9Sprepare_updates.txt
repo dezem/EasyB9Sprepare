@@ -28,7 +28,7 @@
 0xd2d115676c31d45ed840ce66e5c331dccb235e0c sources\cias\Checkpoint.cia
 0xe771f5c47493cb7213297ddece080188de1204ce sources\cias\DSP1.cia
 0x0bb715ff1ce120c24830972d0798a92794f1e7c1 sources\cias\FBI.cia
-0xb1c40621674012d2ab48d7889ac477a21fbed4f2 sources\cias\ftpd.cia
+0x97ede8f32a7513adb3adc0caa25baa9fd367e616 sources\cias\ftpd.cia
 0x71a162e85481d600ae351cc07419acee61dcd412 sources\cias\hblauncher_loader.cia
 0xf81f3180ba152f596c280a45acb3c6bbe088c104 sources\cias\lumaupdater.cia
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
