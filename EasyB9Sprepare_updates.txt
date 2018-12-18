@@ -25,7 +25,7 @@
 0xb9cfa84916a930d272250130d67ceb822141177d sources\boot9strap\secret_sector.bin
 0x621538260e62500491be0f9145a7e659173a86ae sources\cias\3DSident-GUI.cia
 0xa9d9cecbbdca0aabd44f20f91087303730f81bd8 sources\cias\Anemone3DS.cia
-0xb38308f87b1f2192c0b279b96b2b30f4b9f2e262 sources\cias\Checkpoint.cia
+0x2d4b7c7e39bd1d178edfd21762324cb602f2fe66 sources\cias\Checkpoint.cia
 0xe771f5c47493cb7213297ddece080188de1204ce sources\cias\DSP1.cia
 0xc326408e61d45a7fb699b12d6e9a977bc79d1165 sources\cias\FBI.cia
 0x97ede8f32a7513adb3adc0caa25baa9fd367e616 sources\cias\ftpd.cia
