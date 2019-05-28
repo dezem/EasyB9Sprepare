@@ -31,7 +31,7 @@
 0xb9cfa84916a930d272250130d67ceb822141177d sources\boot9strap\secret_sector.bin
 0x621538260e62500491be0f9145a7e659173a86ae sources\cias\3DSident-GUI.cia
 0xa9d9cecbbdca0aabd44f20f91087303730f81bd8 sources\cias\Anemone3DS.cia
-0x55bf09ca3f12ce41875075851797bc82a8b6bd34 sources\cias\Checkpoint.cia
+0xefc4cdf7d5f88d356d7bb528a5a196cbce7d6027 sources\cias\Checkpoint.cia
 0xe771f5c47493cb7213297ddece080188de1204ce sources\cias\DSP1.cia
 0x133080bf92208c40e10dfb8bf4426603a516bc3e sources\cias\FBI.cia
 0x95fa0f2185a5a88b647ffd25edadefa047042dea sources\cias\ftpd.cia
@@ -182,4 +182,4 @@
 0xaf85a82f49f9f62468c48e308902a03d5cfe7e71 sources\soundhax\soundhax-usa-o3ds.m4a
 0x27a1283b45860cc263d2ddf0dfcbe0a6834eb9a5 sources\steelhax\code.bin
 0x731a3bd3cf7d1456c2bde6e2a6181f9276c3c7d6 sources\steelhax\rop.bin
-0x24b61385a57e9506a5eff6f66b4f2f749307294e EasyB9Sprepare.exe
+0x2137d18c079cd55a7d86324321940af9fadc5a13 EasyB9Sprepare.exe
