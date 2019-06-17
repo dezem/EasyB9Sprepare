@@ -51,6 +51,7 @@
 0x11e5cae333611c07aa9b32fbc24b6bea1e68b709 sources\otherapp\otherapp-eur-new-11-3.bin
 0x590d0db04e248f54361a37492396c9bfcc6e9675 sources\otherapp\otherapp-eur-new-11-5.bin
 0x6080d2653bc79afe8567820bacd2c44bf6aab982 sources\otherapp\otherapp-eur-new-11-7.bin
+0xf390211fcf083464c5a4f7fdca21d7f5bf61fb28 sources\otherapp\otherapp-eur-new-11-10.bin
 0x4df8e153f53d0f7bcb4ed58f3e1c2b254a944731 sources\otherapp\otherapp-eur-new-9-0.bin
 0x03fade07d185176e19a6529cc2f7aabf7d8f46bc sources\otherapp\otherapp-eur-new-9-2.bin
 0x19fb0a97bc279d4725e5be68dbf1cc296a3f6211 sources\otherapp\otherapp-eur-new-9-3.bin
@@ -68,6 +69,7 @@
 0xcfab9ee05bfe82a50fe192d8018637afdadc9e00 sources\otherapp\otherapp-eur-old-11-3.bin
 0x866fbe712f5c32e6e24dfda38cf03b6b8ef6906f sources\otherapp\otherapp-eur-old-11-5.bin
 0x2a21bbdbc33ca031b43204449a03c4129cee0c3d sources\otherapp\otherapp-eur-old-11-7.bin
+0x5fa401b2ba64115a93b103d60a7b76d7809e19bc sources\otherapp\otherapp-eur-old-11-10.bin
 0x6d8e4558725d78cc1a6648436d38e0a768d336f7 sources\otherapp\otherapp-eur-old-9-0.bin
 0x83a6526e8c03d1f952da5c2c95dd6baf3b02a37f sources\otherapp\otherapp-eur-old-9-2.bin
 0xce7df79a1d10f214ea5cd9edf47e0b11ac357164 sources\otherapp\otherapp-eur-old-9-3.bin
@@ -182,4 +184,4 @@
 0xaf85a82f49f9f62468c48e308902a03d5cfe7e71 sources\soundhax\soundhax-usa-o3ds.m4a
 0x27a1283b45860cc263d2ddf0dfcbe0a6834eb9a5 sources\steelhax\code.bin
 0x731a3bd3cf7d1456c2bde6e2a6181f9276c3c7d6 sources\steelhax\rop.bin
-0x2137d18c079cd55a7d86324321940af9fadc5a13 EasyB9Sprepare.exe
+0xcb5c7126057419d3df75b31cb9cae51452f95382 EasyB9Sprepare.exe
