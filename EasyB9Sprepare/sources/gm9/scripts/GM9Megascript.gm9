@@ -97,6 +97,7 @@ end
 
 if	inject -n I:/nand_minsize.bin S:/nand.bin@0
 	imgumount
+	rm -o -s 1:/data/$[SYSID0]/sysdata/00010011/00000000
 	echo "$[NANDBAK]\nsuccessfully restored to SysNAND."
 else
 	echo "An error occurred during the transfer\nPlease try again."
@@ -135,6 +136,7 @@ cp -w -n I:/ctrnand_full.bin S:/ctrnand_full.bin
 cp -w -n I:/twln.bin S:/twln.bin
 cp -w -n I:/twlp.bin S:/twlp.bin
 imgumount
+rm -o -s 1:/data/$[SYSID0]/sysdata/00010011/00000000
 echo "$[NANDBAK]\nsuccessfully restored to SysNAND."
 goto MainMenu_Restore_Options
 
@@ -165,6 +167,7 @@ end
 imgmount $[NANDBAK]
 inject -n I:/nand_minsize.bin E:/nand.bin@0
 imgumount
+rm -o -s 4:/data/$[EMUID0]/sysdata/00010011/00000000
 echo "$[NANDBAK] successfully restored to EmuNAND."
 goto MainMenu_Restore_Options
 
@@ -219,6 +222,7 @@ fixcmac 1:/title
 
 mv -n -w 1:/ticket.bak 1:/dbs/ticket.bak
 imgumount
+rm -o -s 1:/data/$[SYSID0]/sysdata/00010011/00000000
 echo "CTRNAND transfer successful."
 goto Start
 
@@ -438,7 +442,12 @@ if	allow -a S:
 	rm -o -s 1:/rw/luma
 	cp -n $[NATIVE_FIRM] S:/firm0.bin
 	cp -n $[NATIVE_FIRM] S:/firm1.bin
-	echo "CFW un-installed successfully"
+	shaget S:/nand.bin@57FFE00:200 PRE_STAGE2_HASH
+	if not sha S:/nand.bin@B800000:200 $[PRE_STAGE2_HASH]
+		fget S:/nand.bin@57FFE00:1 PRE_STAGE2
+		fill S:/nand.bin@B7FFE00:89C00 $[PRE_STAGE2]
+	end
+	echo "CFW uninstalled successfully"
 else
 	echo "Permissions denied. Aborting."
 end
@@ -457,12 +466,17 @@ set NATIVE_FIRM $[GM9OUT]/NATIVE_FIRM.firm
 cp -w G:/exefs/.firm $[NATIVE_FIRM]
 imgumount
 
-if	allow S:/nand.bin
-	allow 1:
+if	allow -a S:
+	allow -a 1:
 	rm -o -s 1:/boot.firm
 	rm -o -s 1:/rw/luma
 	cp -n $[NATIVE_FIRM] S:/firm0.bin
 	cp -n $[NATIVE_FIRM] S:/firm1.bin
+	shaget S:/nand.bin@57FFE00:200 PRE_STAGE2_HASH
+	if not sha S:/nand.bin@B800000:200 $[PRE_STAGE2_HASH]
+		fget S:/nand.bin@57FFE00:1 PRE_STAGE2
+		fill S:/nand.bin@B7FFE00:89C00 $[PRE_STAGE2]
+	end
 	echo "CFW uninstalled successfully"
 else
 	echo "Permissions denied. Aborting."
@@ -1114,7 +1128,7 @@ set PREVIEW_MODE "GODMODE9 ALL-IN-ONE MEGASCRIPT\nby annson24\n \nScripts from P
 if	not ask "This will copy Luma3DS to your CTRNAND,\nallowing for the system to work without\nan SD card.\n \nContinue?"
 	goto MainMenu_Scripts_from_Plailect's_Guide
 end
-if	allow -a 1:
+if	allow 1:
 	cp -w -o -s 0:/boot.firm 1:/boot.firm
 	if	not find 1:/rw/luma NULL
 		mkdir 1:/rw/luma
@@ -1123,6 +1137,7 @@ if	allow -a 1:
 	cp -w -o -s 0:/luma/customversion_sys.txt 1:/rw/luma/customversion_sys.txt
 	cp -w -o -s 0:/luma/splash.bin 1:/rw/luma/splash.bin
 	cp -w -o -s 0:/luma/splashbottom.bin 1:/rw/luma/splashbottom.bin
+	cp -w -o -s 0:/luma/payloads 1:/rw/luma/payloads
 	echo "Luma3DS copied successfully."
 else
 	echo "Permissions denied. Aborting."
