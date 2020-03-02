@@ -37,7 +37,7 @@
 0x2ff4dfbd8e702b2d5e8982c5af5634dce7e58121 sources\cias\FBI.cia
 0x5209e3103070ffa52fd64c41248eae5d7588b261 sources\cias\ftpd.cia
 0x71a162e85481d600ae351cc07419acee61dcd412 sources\cias\hblauncher_loader.cia
-0xa0dd351ff3615ca985a9c71b8ebcf1d411426a8d sources\cias\lumaupdater.cia
+0xb823a3247b0e4d8129dadf68b79595d592827c19 sources\cias\lumaupdater.cia
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
 0x4f8230d3235dd47175f1a97ecdbd61b6526fcc67 sources\gm9\scripts\GM9Megascript.gm9
 0x30cdf8505792504428e728aea723f2c43cb760f7 sources\gm9\scripts\NANDManager.gm9
