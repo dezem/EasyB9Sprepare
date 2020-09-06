@@ -41,6 +41,7 @@
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
 0x390e5d2eb1581312747f65894cebf2919c2d8ddb sources\gm9\scripts\GM9Megascript.gm9
 0x30cdf8505792504428e728aea723f2c43cb760f7 sources\gm9\scripts\NANDManager.gm9
+0x06f457cd5ebd5c2973393e114fa6540bd064e00b sources\otherapp\otherapp.bin
 0x0302cd2bdd499eded5e4539bf343c7531312c93c sources\otherapp\otherapp3.bin
 0xea518e5e6af552c0674b33b37593985708915b92 sources\otherapp\otherapp48.bin
 0xbbdd8ef177e39c9889c88cb5002e058e88cdb5a8 sources\otherapp\otherapp-eur-new-10-1.bin
@@ -172,15 +173,18 @@
 0x233bdeb0dd45717a1c64c148c25b03fd8046a76c sources\otherapp\otherapp-usa-old-9-8.bin
 0xc74a6398439b33e32d604ace53d442bd448560fb sources\otherapp\otherapp-usa-old-9-9.bin
 0x73e01c63112fe9d9ac5d5e95e6659ff498b47ea1 sources\soundhax\soundhax-eur-n3ds.m4a
+0xb3ba862e2a096442c662fd63d146dced173fe8cd sources\soundhax\soundhax-eur-o3ds-2.m4a
 0x71a4475daee4aa060239bee57c7b2e7df364a1e2 sources\soundhax\soundhax-eur-o3ds-34.m4a
 0x618483a7934759d2cdbfbdad387af2a450cd37f3 sources\soundhax\soundhax-eur-o3ds.m4a
 0x53798c0e3bad401a8760b269fd276bddbfb8c6f7 sources\soundhax\soundhax-jpn-n3ds.m4a
+0x317583c0c19d2b4b47d81df7b1e9175b71818abc sources\soundhax\soundhax-jpn-o3ds-2.m4a
 0x186cb5e95172e3cf9fbd4fa8a21beae340b0c420 sources\soundhax\soundhax-jpn-o3ds-34.m4a
 0x0db608093c280e0000a342d94898dd280074dd34 sources\soundhax\soundhax-jpn-o3ds.m4a
 0xf785d8582cd81277536cb5b3179452105b5f75c9 sources\soundhax\soundhax-kor-n3ds.m4a
 0x629caf94f164f4d8f06101a521a45ca82d9d5d56 sources\soundhax\soundhax-kor-o3ds-34.m4a
 0x6a4c47562560407dba51bb74c28fe8d2e87a82ce sources\soundhax\soundhax-kor-o3ds.m4a
 0xb4af52d123e505d43eb9d9c2531d2e2df4c7045c sources\soundhax\soundhax-usa-n3ds.m4a
+0x2e29f89aceee1e219b3003f0d4316e66ac4d3946 sources\soundhax\soundhax-usa-o3ds-2.m4a
 0xbe3e243dd75a1b9e8fdc55b0191335f4a679bdf1 sources\soundhax\soundhax-usa-o3ds-34.m4a
 0xf894f1b77a4c7468d4dc28fb1ffc45ba099ef9ca sources\soundhax\soundhax-usa-o3ds.m4a
 0x27a1283b45860cc263d2ddf0dfcbe0a6834eb9a5 sources\steelhax\code.bin
@@ -201,5 +205,5 @@
 0x520d8e9326a3845fbae52f3e02f59ea0365a31fc sources\browserhax\usa_old_otherapp_cfgs.bin
 0xd1fe71f3fd131fd3bb409c7431abebf65e847901 sources\unsm\slotTool.3dsx
 0x213949e3f7d2ddfcc3bd8a4c1a12b0290c15fb2c sources\unsm\usm.bin
-0x5c27d3831204298e518f75987dbbcee949c4db75 EasyB9Sprepare.exe
-0xa5b9964ba034ea5cade97d600ec9b16392e36ceb EasyB9Sprepare64.exe
+0x1e7d3fda54987d2101ced0b146c6e1d120cd2b8c EasyB9Sprepare.exe
+0x0cb9dc312d97f07eeeb76191a2df35a6b90283fa EasyB9Sprepare64.exe
