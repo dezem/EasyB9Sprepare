@@ -30,7 +30,7 @@
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
 0x32006dcc4142396d77880d0bd40c04af0e1783f2 sources\gm9\scripts\GM9Megascript.gm9
 0x30cdf8505792504428e728aea723f2c43cb760f7 sources\gm9\scripts\NANDManager.gm9
-0x2ba70e67a93f0151b328cccc2dd473046a50dfc7 sources\otherapp\otherapp.bin
+0x6e323766d307607ace9ca33ae60260573c7a05fc sources\otherapp\otherapp.bin
 0x38aa82954d2d3d97a3e3ca64adaeb53755c11584 sources\soundhax\soundhax-eur-n3ds.m4a
 0xc7656b772a6a9910ce4248d5a3a4e51b7a2d2535 sources\soundhax\soundhax-eur-o3ds-1.m4a
 0x075d91b55151cb5a3914e47907deb99c96acc1aa sources\soundhax\soundhax-eur-o3ds-2.m4a
