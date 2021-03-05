@@ -30,10 +30,6 @@
 0xdf36e46f6d74e496a2784b6b3348f8c962edb72a sources\cias\MultiUpdater.cia
 0x32006dcc4142396d77880d0bd40c04af0e1783f2 sources\gm9\scripts\GM9Megascript.gm9
 0x30cdf8505792504428e728aea723f2c43cb760f7 sources\gm9\scripts\NANDManager.gm9
-0xda39a3ee5e6b4b0d3255bfef95601890afd80709 sources\gm9\support\aeskeydb.bin.here
-0xda39a3ee5e6b4b0d3255bfef95601890afd80709 sources\gm9\support\decTitleKeys.bin.here
-0xda39a3ee5e6b4b0d3255bfef95601890afd80709 sources\gm9\support\encTitleKeys.bin.here
-0xda39a3ee5e6b4b0d3255bfef95601890afd80709 sources\gm9\support\seeddb.bin.here
 0x6e323766d307607ace9ca33ae60260573c7a05fc sources\otherapp\otherapp.bin
 0x38aa82954d2d3d97a3e3ca64adaeb53755c11584 sources\soundhax\soundhax-eur-n3ds.m4a
 0xc7656b772a6a9910ce4248d5a3a4e51b7a2d2535 sources\soundhax\soundhax-eur-o3ds-1.m4a
@@ -54,5 +50,5 @@
 0x7927492f1dcd7fbaa5c5fe7a7547108f43c9b7ee sources\soundhax\soundhax-usa-o3ds-34.m4a
 0x96fe1f9944a532eabcb261085d3e5414fb83fbab sources\soundhax\soundhax-usa-o3ds.m4a
 0xd1fe71f3fd131fd3bb409c7431abebf65e847901 sources\unsm\slotTool.3dsx
-0xc593b1f61afaa71a0218b3ecccd528cb7aef2ac2 EasyB9Sprepare.exe
-0x6abfb7adbbc0b2365a688c1b5d74852562f8cfcc EasyB9Sprepare64.exe
+0x5646a206aca1796d3f2246fe4502dc3fcf1315ca EasyB9Sprepare.exe
+0x8d4c7b36bf3a0e15d2b504201778069131cfcd6c EasyB9Sprepare64.exe
