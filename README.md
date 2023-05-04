@@ -1,2 +1,8 @@
 # EasyB9Sprepare
 https://psxtools.de/index.php/Thread/74962
+
+**PROJECT IS CLOSED, NO MORE UNDER MAINTENANCE**
+
+**I WILL STOP ALL MY WORK FOR ALL PROJECTS**
+
+**THANKS FOR THE TIME**
